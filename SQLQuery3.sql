@@ -1,5 +1,4 @@
 --LAB 3
-
 --Create Tables
 
 CREATE TABLE Departments (
@@ -131,8 +130,8 @@ end
 
 exec PR_Employee_Dob '1985-04-12'
 
---Part – B
---6. Create a Procedure that accepts Gender’s first letter only and based on that 
+--Part â€“ B
+--6. Create a Procedure that accepts Genderâ€™s first letter only and based on that 
 --employee details will be served.
 create or alter procedure PR_Employee_Gender
 	@Gender varchar(100)
@@ -170,7 +169,7 @@ begin
 end
 
 exec PR_Department_Location 'new';
---Part – C
+--Part â€“ C
 --9. Create a procedure that will accepts From Date & To Date and based on that he/she will retrieve 
 --Project related data.
 create or alter procedure PR_Project_Date
