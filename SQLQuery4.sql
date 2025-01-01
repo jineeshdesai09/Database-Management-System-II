@@ -1,4 +1,5 @@
---Part – A
+--Part â€“ A
+
 --1. Write a function to print "hello world".
 CREATE OR ALTER FUNCTION FN_HELLOWORLD()
 	RETURNS VARCHAR(100)
@@ -78,7 +79,7 @@ BEGIN
 END
 
 SELECT DBO.FN_FACTORIAL(5)
---Part – B
+--Part â€“ B
 --8. Write a function to compare two integers and return the comparison result. (Using Case statement)
 CREATE OR ALTER FUNCTION FN_COMPARISON(@NUM1 INT, @NUM2 INT)
 	RETURNS VARCHAR(50)
