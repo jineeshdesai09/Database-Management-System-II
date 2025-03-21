@@ -1,5 +1,6 @@
 Perform the following queries on Index, Cursor, Schema Validation, Embedded and Multivalued Documents:
----------------------------------Part – A (Use collection “Stock” created in Lab-12)--------------------------------
+------------------Part – A (Use collection “Stock” created in Lab-12)--------------
+
 1. Create an index on the company field in the stocks collection.
 db.Stock.createIndex({company:1})
 
@@ -46,53 +47,7 @@ db.createCollection("Companies", {
         }
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-------------------------------------------------------Part – B------------------------------------------------------
+-------------------------Part – B---------------------
 
 1. Create a collection named "Scripts" with validation for fields like eps, pe, and roe to ensure that they
 are numbers and required/compulsory fields.
@@ -160,7 +115,7 @@ db.createCollection("Products", {
     }
 });
 
-------------------------------------------------------Part – C------------------------------------------------------
+---------------------------Part – C-------------------------
 
 1. Create a collection named “financial_Reports” that requires revenue (a positive number) but allows optional fields like expenses and netIncome (if provided, they should also be numbers).
 db.createCollection("financial_Reports", {
